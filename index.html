@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puzzle X</title>
+    <base target="_top">	
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  </head>
+  <body onload="createGrid()">
+  
+  <div class="container">
+  
+	<!-- header and nav -->
+	<div class="header_tag">
+		<div class="header_content">
+			<div class="header_left">
+				<img class="toplogo" src="pics/logo.png"></img>
+				<div id="logo_text">Logic Game</div>
+			</div>		
+			<div class="header_right">
+				<ul id="menu">
+					<li><a id="play" href="" target="_top">Play</a></li>
+					<li><a id="about" href="about.html" target="_top">About</a></li>
+					<li><a id="contact" href="contact.html" target="_top">Contact</a></li>								
+				</ul>
+			</div>
+		</div>
+	</div>	
+  
+  
+  	<div class="main">
+	
+		<div class="top">
+			<div class="topleft">
+			<a class="level" id="10" href="index.html?x=10">10X</a>
+			<a class="level" id="12" href="index.html?x=12">12X</a>
+			<a class="level" id="14" href="index.html?x=14">14X</a>
+			<a class="level" id="16" href="index.html?x=16">16X</a>
+			<a class="level" id="18" href="index.html?x=18">18X</a>
+			<a class="level" id="20" href="index.html?x=20">20X</a>
+			</div>
+			<div class="topright">
+				<div id="timer">00:00</div>
+			</div>
+		</div>
+		
+		<div class="puzarea">
+			<div id="puztable">
+				<table id="puz"></table>
+			</div>
+		</div>
+		
+	
+		<a class="advert" href="https://excelmacrofun.blogspot.com/p/puzzle-x-book.html" target="_blank">
+			<img class="adlogo" src="pics/Puzzle X.png"></img>
+			<img class="adlogo" src="pics/Puzzle X Small.png"></img>
+			<img class="adlogo" src="pics/Puzzle X Medium.png"></img>
+			<img class="adlogo" src="pics/Puzzle X Large.png"></img>
+			<div>
+				<div class="ad_text">Puzzle X Book Series</div>			
+				<div class="ad_text2">More than 500 puzzles of different sizes available</div>
+			</div>
+		</a>
+
+		<div id="bottom">
+			<div class="bottomtbl">	
+				<b><i>RANKING</i></b>
+				<table id="scores">	
+				</table>
+				<div id="scores_msg"></div>
+				<!-- <a href="#">--- See all ---</a>	 -->			
+			</div>
+		</div>
+	</div>
+	<footer>Puzzle X &#169 2024</footer>	
+  </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
