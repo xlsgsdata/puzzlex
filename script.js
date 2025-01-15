@@ -37,12 +37,12 @@ function stopTimer() {
 // navigation -------------------------------------------------------------------------------------------
 function getPage() {
 	var p = window.location.pathname;
-	if (p.match('/index')) {
-		var navi = "play";
+	if (p.match('/contact')) {
+		var navi = "contact";	
 	} else if (p.match('/about')) {
 		var navi = "about";
 	} else {
-		var navi = "contact";		
+		var navi = "play";	
 	}
 	naviSelect(navi);
 }
