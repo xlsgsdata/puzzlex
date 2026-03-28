@@ -81,7 +81,7 @@ function naviSelect(navi) {
 		if ( rows < 18 ) { 
 			xsize = (w - (24 - rows)); 
 		} else { 
-			xsize = (w - 6); 
+			xsize = (w - 7); 
 		}
 			
 		for (var r = 0; r < rows; r++){   			
