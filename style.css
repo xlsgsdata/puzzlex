@@ -45,10 +45,10 @@ a {
 	padding-left:15px;
 }
 .toplogo {
-	height:32px;	
+	height:30px;	
 }
 #logo_text {
-	font-size:18px;	
+	font-size:16px;	
 	margin-left:6px;
 	color:#999;
 }
@@ -88,7 +88,7 @@ a {
 	margin:30px auto 20px auto;
 	max-width:460px;
 	width:100%;
-	font-size:18px;
+	font-size:16px;
 }
 
 .topleft {
@@ -104,7 +104,7 @@ a {
 	font-weight:false;
 	text-decoration:none;
 	margin-right:3px;
-	padding:3px 8px;
+	padding:3px 7px;
 	text-align:center;	
 	border-radius: 25px;	
 	vertical-align:middle;
@@ -309,11 +309,18 @@ footer {
 @media screen and (max-width: 600px) {
 	#menu a {
 		padding:5px 10px;
+		font-size:16px;
 	}
 	#logo_text {
 			display:none;
 	}
 	.main {
 		padding:0px 10px;
+	}
+		.header_left {
+		padding-left:10px;
+	}
+	.header_right {
+		padding-right:10px;
 	}
 }
